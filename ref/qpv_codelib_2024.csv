@@ -1,0 +1,1363 @@
+code_qp,lib_qp
+QN00101M,Grande Reyssouze Terre Des Fleurs
+QN00102M,Croix Blanche
+QN00103M,Les Courbes De L'Albarine
+QN00104M,La Plaine - La Forge - Guynemer
+QN00105I,Pré des Saules
+QN00106M,Clos Morcel - Brillat-Savarin - Bouvardière
+QN00107M,La Maladière - Les Peupliers
+QN00201M,Europe
+QN00202M,Faubourg D'Isle
+QN00203M,Neuville
+QN00204M,Vermandois
+QN00205M,Champ Roland Et Bords De L'Oise
+QN00206M,Gare Et Verrière
+QN00207M,Quartier De L'Artilleur
+QN00208M,Roosevelt Rebequet
+QN00209M,Quartier De La Résidence
+QN00210M,Montreuil
+QN00211M,Champagne Moulin - Roux
+QN00212M,Saint-Crépin Ouest
+QN00213M,Presles
+QN00214M,Chevreux
+QN00215M,Route De Vivières
+QN00216M,Blanchard
+QN00217M,Vaucrises
+QN00301M,Cœur D'Agglo
+QN00302I,Les Ailes/Port Charmeil
+QN00303M,Moulins-Sud
+QN00304M,Rive Gauche
+QN00305M,Fontbouillant
+QN00306M,Bien-Assis
+QN00401M,Centre Ville - Pigeonnier
+QN00402M,Quartier Est
+QN00403M,Quartier Ouest
+QN00501M,Quartier du Haut-Gap
+QN00601M,Las Planas - Le Rouret
+QN00602M,Cœur De Ville - Hauts De Vallauris
+QN00603M,Ranguin - Saint Pierre - Colline - Frayère
+QN00604M,Grand Centre
+QN00605I,Les Fleurs de Grasse
+QN00606I,La Condamine
+QN00607M,Centre
+QN00608I,Les Moulins - Le Point Du Jour
+QN00609I,Les Sagnes
+QN00610M,Centre
+QN00611M,Paillon
+QN00612M,Ariane - Le Manoir - Gares
+QN00613M,Centre
+QN00614N,Le Château
+QN00701I,Quartiers D'Avenir
+QN00702M,Cœur De Ville
+QN00703I,Sud Avenir
+QN00704M,Les Hauts De Ville
+QN00705M,Nouvel Horizon
+QN00801M,Manchester
+QN00802M,Ronde Couture
+QN00803I,La Houillère
+QN00804M,La Couronne
+QN00805M,Torcy Cités
+QN00806M,Torcy Centre
+QN00807M,Le Lac - Centre Ancien
+QN00808M,Cœur De Vie
+QN00901M,Cœur De Ville
+QN00902M,Centre Ancien - Quartier de la Gare
+QN00903I,Centre Ancien - La Gloriette
+QN01001I,Gare
+QN01002M,Bords De Seine
+QN01003M,Chantereigne Montvilliers Beau-Toquat
+QN01004I,Debussy
+QN01005M,Maugout
+QN01006M,Chartreux Lisière
+QN01007I,Jules Guesde
+QN01008I,Sénardes
+QN01009M,Point Du Jour
+QN01010M,Lumières Boucher Champagne
+QN01101I,Quartier Aude
+QN01102I,La Conte - Ozanam
+QN01103I,Le Viguier - Saint-Jacques
+QN01104I,Bastide Pont-Vieux
+QN01105I,Fleming La Reille
+QN01106M,Grazailles
+QN01107I,Narbonne Ouest
+QN01108I,Narbonne Centre
+QN01109I,Narbonne Est
+QN01110I,Centre-ville
+QN01201M,Quatre Saisons
+QN01202M,"Bastide, Tricot et Lapeyrade"
+QN01203N,Costes Rouges
+QN01204N,Saint- Éloi et Camonil
+QN01205N,Centre ancien et Beauregard
+QN01301M,Florida Parc
+QN01302M,Quartier Centre Ville
+QN01303I,Saint Henri
+QN01304I,La Viste
+QN01305M,Roquecoquille
+QN01306M,La Gavotte - Peyret
+QN01307M,Château Saint Loup
+QN01308I,La Capelette
+QN01309M,Griffeuille
+QN01310I,Barriol
+QN01311I,Le Trébon
+QN01312M,Centre Historique - Ferrages
+QN01313M,Jas-De-Bouffan
+QN01314M,Beisson
+QN01315M,Encagnane
+QN01316M,Corsy
+QN01317I,Secteur Centre
+QN01318I,La Frescoule
+QN01319I,Le Charrel
+QN01320I,Mas de Pouane
+QN01321I,Notre Dame Des Marins
+QN01322M,Canto Perdrix
+QN01323I,Les Aigues Douces
+QN01324M,Les Comtes
+QN01325M,Centre Historique
+QN01326I,Quartier Béalet-Bessons-Mariélie
+QN01327I,Les Canourgues
+QN01328I,La Monaque
+QN01329I,Centre ville
+QN01330M,Centre Ville 1er et 2e Arrondissements
+QN01331M,Canet Arnavaux Jean Jaurès
+QN01332M,Centre Ville 3e Arrondissement
+QN01333I,La Cravache Le Trioulet
+QN01334I,La Cayolle
+QN01335M,La Sauvagère
+QN01336M,Benza
+QN01337I,Saint Thys
+QN01338I,Air Bel
+QN01339I,La Rouguière
+QN01340I,Valbarelle Néréïdes Bosquet
+QN01341I,Les Escourtines
+QN01342I,Malpassé Corot
+QN01343I,Balustres Cerisaie
+QN01344M,Frais Vallon
+QN01345M,Le Clos La Rose
+QN01346M,Le Petit Séminaire
+QN01347I,La Marie
+QN01348M,Les Olives
+QN01349M,La Simiane La Paternelle Vieux Moulin
+QN01350M,Saint Gabriel Bon Secours
+QN01351M,Saint Jérôme Les Tilleuls
+QN01352M,Grand Saint Barthélémy
+QN01353M,Le Castellas Les Micocouliers
+QN01354M,La Castellane La Bricarde
+QN01355M,Plan d'Aou Saint Antoine
+QN01356I,Consolat Ruisseau Mirabeau
+QN01357M,Saint Louis Campagne Lévêque
+QN01358I,Les Aygalades
+QN01359I,Kalliste La Granière La Solidarité
+QN01360M,La Savine Bosphore
+QN01361I,Les Tilleuls La Maurelette
+QN01362I,Cap Janet La Cabucelle Les Crottes
+QN01363I,La Visitation - Bassens
+QN01364I,Saint André
+QN01365M,Le Prépaou
+QN01366I,La Carraire
+QN01367M,La Maille
+QN01368M,La Soude Bengale
+QN01369I,Caillols La Moularde
+QN01370N,Boudème-Les Deux Portes-Bargemont
+QN01371N,Quartier prioritaire de Port-Saint-Louis
+QN01401M,Chemin Vert
+QN01402M,Grâce De Dieu
+QN01403M,Guérinière
+QN01404M,Pierre Heuzé
+QN01405I,Calvaire Saint Pierre
+QN01406M,Grande Delle - Val - Belles Portes - Grand Parc - Haute Folie - Le Bois
+QN01407M,Le quartier prioritaire de Honfleur
+QN01408M,Hauteville
+QN01501M,Aurillac Sud
+QN01601M,Basseau - Grande Garenne
+QN01602I,Ma Campagne
+QN01603M,Bel Air - La Grand Font
+QN01604M,L'Etang Des Moines
+QN01605M,Champ De Manœuvre
+QN01606M,Crouin
+QN01701M,Mireuil
+QN01702M,Villeneuve-Les-Salines
+QN01703M,Boiffiers - Bellevue
+QN01704I,Sud Centre-Ville - Avant-Garde
+QN01705M,Petit Marseille - Gélinerie
+QN01706M,L'Estuaire
+QN01707M,Port-Neuf
+QN01801M,Bourges Nord
+QN01802M,Val d'Auron - Bourges
+QN01803M,Le Vernet - Saint Amand Montrond
+QN01804M,Clos Du Roy - Centre Ville - Vierzon
+QN01901M,Quartier de Rivet
+QN01902M,Quartier Tujac-Gaubre
+QN01903M,Quartier des Chapélies
+QN02101M,Le Mail
+QN02102M,Fontaine D'Ouche
+QN02103M,Les Grésilles
+QN02104M,Le Bief Du Moulin
+QN02105M,Le Belvédère
+QN02106N,Quetigny Centre
+QN02201M,Ar Santé - Les Fontaines
+QN02202M,Ker Uhel
+QN02203I,Croix Saint-Lambert - Ville Oger
+QN02204M,Le Plateau - Europe - Balzac
+QN02205I,Waron - Point Du Jour
+QN02206I,La Fontaine des Eaux
+QN02207N,Castel Pic - Roudourou - La Madeleine
+QN02301M,L'Albatros
+QN02401M,Quartier Rive-Gauche
+QN02402M,Quartier Centre-ville
+QN02403M,Quartier Nord
+QN02404M,Chamiers
+QN02405M,La Boucle de L'Isle
+QN02501M,Le Grand-Longs-Traits/Berlioz
+QN02502M,Orchamps-Palente
+QN02503M,Planoise
+QN02504M,Montrapon
+QN02505M,Clairs Soleil
+QN02506M,Les Champs Montants
+QN02507M,Champvallon
+QN02508M,Les Fougères
+QN02509M,Chiffogne
+QN02510M,Petite Hollande
+QN02511M,Les Evoironnes
+QN02512M,Les Buis
+QN02513N,Batteries du Parc
+QN02514N,Forges - Montanot
+QN02515N,Hauts de Saint-Claude
+QN02516N,Les Pareuses
+QN02517N,Battant
+QN02601I,Centre Ancien
+QN02602M,Quartiers Ouest
+QN02603M,Nocaze
+QN02604M,Centre Historique
+QN02605I,Quartiers Est
+QN02606M,Polygone
+QN02607M,Les Hauts de Valence
+QN02608I,Valensolles
+QN02609M,Chamberlière
+QN02610M,Le Roc
+QN02611M,Cœur De Loriol
+QN02612M,Clairval
+QN02701M,Les Eglantiers - Valmeux Blanchères - Boutardes
+QN02702M,La Madeleine
+QN02703M,Nétreville
+QN02704M,Navarre
+QN02705M,Maison-Rouge
+QN02706M,Acacias - La Londe - Les Oiseaux - Salengro
+QN02707M,Centre ville
+QN02708M,Le Bourg Le Comte
+QN02709M,L'Europe
+QN02710M,La Passerelle
+QN02711N,Gailloncelle - Verte Bonne - Jardin du bas
+QN02712N,Quartier du Stade
+QN02801M,Les Vauvettes
+QN02802M,Les Clos
+QN02803M,Vieux Puits - Paradis - Maunoury
+QN02804M,Bruxelles - Arcades - Béguines
+QN02805I,Tallemont - Bretagne
+QN02806M,Les Bâtes Tabellionne
+QN02807M,Les Rochelles - Barthou
+QN02808M,Dunant - Kennedy
+QN02809M,Beauvoir
+QN02810M,Le Val
+QN02811N,La Madeleine
+QN02901M,Kerandon
+QN02902M,Kermoysan
+QN02903M,Kerourien
+QN02904M,Bellevue
+QN02905M,Keredern
+QN02906M,Lambézellec Bourg
+QN02907M,Pontanézen
+QN02908M,Queliverzan Pontaniou
+QN02909M,Kerangoff Loti
+QN02A01M,Pifano
+QN02A02M,Salines - Cannes
+QN02A03N,Nord rocade
+QN02B01M,Bastia Meridiunale
+QN02B02M,Bastia Mezana
+QN03001I,Près Saint Jean - Cévennes - Tamaris - Cauvel-la Royale - Rochebelle - Centre ville
+QN03002M,Centre Ville
+QN03003M,Pissevin - Valdegour
+QN03004I,Gambetta-Richelieu
+QN03005I,Chemin-Bas D'Avignon - Clos D'Orville
+QN03006I,Mas De Mingue
+QN03007M,Route de Beaucaire
+QN03008M,Némausus-Jonquilles - Haute Magaille - Oliviers
+QN03009M,Sabatot - Centre Ancien
+QN03010M,Escanaux - Coronelle - Citadelle - Vigan Braquet
+QN03011I,Centre Ville
+QN03012M,La Moulinelle
+QN03013M,Centre Ville
+QN03014M,L'Ecusson
+QN03015M,Les Costières
+QN03016M,"La Grand-Combe, les Salles du Gardon et Branoux Les Taillades"
+QN03017M,Quartier Amandiers-Mûriers
+QN03101M,Saint Jean
+QN03102M,Centre Ouest
+QN03103M,Cœur et quartier de Saint-Gaudens
+QN03104M,Barradels
+QN03105M,Grand Val d'Aran-en-Jacca
+QN03106I,Pradettes
+QN03107M,Grand Mirail
+QN03108M,Arènes
+QN03109M,Empalot
+QN03110M,Izards - 3 Cocus - La Vache
+QN03111I,Cépière Beauregard
+QN03112M,Breguet Lecrivain - Saint Exupéry
+QN03113M,Soupetard
+QN03114M,Vivier Maçon
+QN03115I,La Gloire
+QN03116N,Le Seycheron
+QN03117N,Lalande Nord
+QN03118N,Ginestous
+QN03119N,La Fourguette
+QN03201M,Grand Garros
+QN03301I,Quartier Champ de Course
+QN03302M,Yser - Pont de Madame
+QN03303M,Quartier du Centre
+QN03304M,Quartier Bourg
+QN03305M,Quartier de l'Avenir
+QN03306M,Carle Vernet - Terres Neuves
+QN03307M,Le Lac
+QN03308M,Marne-Capucins
+QN03309M,Benauge - Henri Sellier - Léo Lagrange - Beausite
+QN03310M,Grand-Parc
+QN03311M,Bacalan
+QN03312M,Palmer - Saraillère - 8 Mai 45 - Dravemont
+QN03313M,Grand Caillou
+QN03314M,Jean Jaurès
+QN03315M,Barthez
+QN03316M,Carriet
+QN03317M,Génicart Est
+QN03318M,Alpilles-Vincennes-Bois Fleuri
+QN03319M,Beaudésert
+QN03320M,Châtaigneraie - Arago
+QN03321M,Saige
+QN03322M,Thouars
+QN03323M,Dorat
+QN03324N,Thorez Goëlands
+QN03325N,Haut Livrac
+QN03401M,Centre Ville
+QN03402M,Iranget Grangette
+QN03403M,Devèze
+QN03404M,Celleneuve
+QN03405M,Mosson
+QN03406I,Petit Bard Pergola
+QN03407I,Paul Valéry - Pas Du Loup - Val De Croze
+QN03408I,Cévennes
+QN03409M,Gély - Figuerolles
+QN03410M,Lemasson - Croix d'Argent
+QN03411I,Tournezy-Saint Martin
+QN03412I,Pompignane
+QN03413I,Aiguelongue
+QN03414M,Coeur de ville à Calmette
+QN03415I,Ile De Thau
+QN03416M,Centre Ville - Ile Sud
+QN03417M,Centre Ville
+QN03418M,Centre Ville
+QN03419M,Centre Et Périphérie
+QN03420M,Centre Ville
+QN03421N,Centre Ville
+QN03501I,La Découverte
+QN03502M,Villejean
+QN03503I,Bréquigny - Champs-Manceaux - Les Clôteaux
+QN03504M,Maurepas
+QN03505M,Le Blosne
+QN03506I,Cleunay
+QN03601M,Beaulieu
+QN03602M,Saint Jean - Saint Jacques
+QN03603M,Vaugirard - Saint Christophe - Les Rocheforts
+QN03604I,Nation Bernardines
+QN03701I,La Verrerie
+QN03702M,Rabière
+QN03703M,Niqueux Bruère - Marcel Pagnol
+QN03704M,Rabaterie
+QN03705M,Fontaines
+QN03706I,Rochepinard
+QN03707I,Rives Du Cher
+QN03708M,Europe
+QN03709M,Sanitas
+QN03710M,Maryse Bastié
+QN03711M,Bords De Loire
+QN03712M,Patte D'Oie - Malétrenne - Plaisance
+QN03713N,Les Tourettes
+QN03714N,La Galboisière
+QN03715N,Le Morier
+QN03801M,La Luire - Viscose
+QN03802M,Champaret
+QN03803M,Essarts - Surieux
+QN03804I,Village Sud
+QN03805M,Alpes Cachin Floralies
+QN03806M,Mistral Lys Rouge Camine
+QN03807M,Villeneuve - Village Olympique
+QN03808M,Teisseire Abbaye Jouhaux Malherbe
+QN03809M,Alma - Très Cloîtres - Chenoise
+QN03810M,Iles De Mars Olympiades
+QN03811M,Renaudie Champberton Henri Wallon
+QN03812M,Brunetière
+QN03813I,Champfleuri
+QN03814M,Saint Hubert Les Remparts
+QN03815M,Saint Bonnet
+QN03816I,Les Roches
+QN03817M,Vieux Péage - Les Ayencins - Bel Air
+QN03818M,Route de Sablons
+QN03819M,Barbières - Château
+QN03820M,Plan des Aures
+QN03821M,Estressin
+QN03822M,Vallée de Gère
+QN03823M,Les Genêts - Cancanne - Hauts de Gère
+QN03824M,Malissol
+QN03901M,Mesnils Pasteur
+QN03902M,Marjorie - Les Mouillères
+QN03903M,Les Avignonnets
+QN03904M,Chabot - Le Miroir - Faubourg
+QN04001M,Le Sablar
+QN04002I,Cuyès
+QN04003I,Le Gond
+QN04004M,Le Peyrouat élargi
+QN04005I,La Moustey
+QN04101M,Blois Nord
+QN04102M,Les Rottes
+QN04103M,Les Favignolles
+QN04104N,Quinière Nord Ouest
+QN04201M,Beauregard
+QN04202M,La Chapelle
+QN04203M,La Romière
+QN04204M,Montrambert Méline
+QN04205M,Le Dorlay - Les Pins - La Bachasse
+QN04206M,Montcel - Centre Ville
+QN04207M,Grand Pont
+QN04208M,Centre Ville
+QN04209M,Centre Ville
+QN04210M,St Julien - Crêt De L'Oeillet
+QN04211M,Cotonne Montferré
+QN04212M,Tardy Tarentaize Beaubrun Couriot
+QN04213M,Montreynaud
+QN04214M,Crêt De Roc - Soleil
+QN04215M,Quartiers Sud-Est
+QN04216M,Terrenoire
+QN04217M,Bourgogne
+QN04218M,Le Parc
+QN04219I,Saint-Clair
+QN04220N,Monthieu
+QN04221N,Grand Clos
+QN04222N,Layat Bas-Mas
+QN04223N,Firminy Vert
+QN04224N,Solaure
+QN04301M,Val Vert
+QN04302M,Guitard
+QN04401M,Ville Ouest
+QN04402I,Petit Caporal - île du Pé
+QN04403I,Prézégat - Berthauderie - Robespierre
+QN04404M,La Ville aux Roses
+QN04405M,Bellevue
+QN04406M,Les Dervallières
+QN04407I,Le Breil
+QN04408M,Bout des landes - Bout des pavés - Chêne des Anglais
+QN04409I,La Boissière
+QN04410I,Port Boyer
+QN04411I,Le Clos Toreau
+QN04412M,Le Ranzay
+QN04413M,Malakoff
+QN04414M,Bottière Pin Sec
+QN04415I,La Halvêque
+QN04416I,La Petite Sensive
+QN04417I,Plaisance
+QN04418M,Château
+QN04419I,Le Sillon de Bretagne
+QN04501M,Le Clos de la Grande Salle
+QN04502I,Andrillons Ormes du Mail
+QN04503M,Lignerolles-Hartière
+QN04504M,Dauphine
+QN04505M,La Source
+QN04506M,Argonne
+QN04507M,Blossières
+QN04508M,Pont Bordeau
+QN04509M,Les Chaises
+QN04510I,Les 3 Fontaines
+QN04511M,Vésines
+QN04512M,Le Plateau
+QN04513M,Le Bourg - Chautemps
+QN04514M,La Chaussée
+QN04515I,Le Hameau
+QN04516I,Champs de la Ville
+QN04517M,Montoires
+QN04518M,Quartiers Nord
+QN04519M,Saint Aignan
+QN04601M,Terre Rouge
+QN04701I,Rodrigues - Barleté
+QN04702M,Agen nord-est
+QN04703M,Pin
+QN04704M,Bastide au bord du Lot
+QN04705M,Bastide des deux rives
+QN04706M,Baylac-Gravette
+QN04707M,Coeur de ville
+QN04801N,Fontanilles
+QN04901M,Belle Beille
+QN04902M,Roseraie
+QN04903M,Savary-Giran
+QN04904M,Grand Pigeon
+QN04905M,Monplaisir
+QN04906M,Hauts de Saint Aubin
+QN04907M,Bédier Beauval Morellerie
+QN04908M,Le Grand Bellevue
+QN04909M,Bretagne Bostangis
+QN04910M,Jean Monnet
+QN04911M,Favreau Les Mauges
+QN04912M,Colline Villeneuve
+QN04913M,Chemin Vert - Hauts Quartiers
+QN04914N,Gide - Colomb
+QN04915N,Saint Exupéry
+QN05001I,La Turfaudière
+QN05002I,Val Saint Jean
+QN05003I,La Dollée
+QN05004M,Claires Fontaines
+QN05005I,Les Provinces
+QN05006I,Maupas - Hautmarais - Brêche Du Bois
+QN05007M,Fourches - Charcot
+QN05101M,Quartier Prioritaire Ouest
+QN05102M,Quartier Prioritaire Sud
+QN05103M,Croix Rouge
+QN05104M,Wilson - Maison Blanche - Chatillons
+QN05105M,Orgeval
+QN05106M,Europe
+QN05107M,Walbaum
+QN05108M,Epinettes - Maladrerie - Chemin Des Bouchers - Paul Petit
+QN05109M,Le Hamois
+QN05110I,Rome Saint Charles
+QN05111M,Bernon - Vignes Blanches
+QN05112N,Schmit
+QN05113N,La Fauvarge
+QN05201M,Rochotte
+QN05202M,Cavalier
+QN05203M,Quartier Neuf
+QN05204I,Vert-Bois
+QN05301M,Les Fourches
+QN05302M,Kellermann
+QN05303M,Pavement - Charité - Mortier - Murat
+QN05401M,Mouzimpré
+QN05402I,Gouraincourt - Remparts
+QN05403I,Concorde
+QN05404I,Quartier Voltaire
+QN05405I,Val Saint Martin
+QN05406M,Quartier Les Mouettes
+QN05407M,Quartier La Penotte
+QN05408I,Bois Le Prêtre - Procheville
+QN05409I,Centre Ancien
+QN05410I,Niederbronn - Zola
+QN05411I,Quartier La Croix De Metz
+QN05412I,La Californie
+QN05413I,Les Provinces
+QN05414M,Plateau De Haye - Champ Le Boeuf
+QN05415M,Plateau De Haye Nancy - Maxéville
+QN05416M,Haussonville - Les Nations
+QN05417M,Saint Michel Jéricho - Grands moulins
+QN05418I,Coeur De Ville
+QN05501M,Côte Sainte-Catherine-Libération
+QN05502I,Planchettes
+QN05503M,Centre Verdun - Cité verte
+QN05601M,Gumenen Goaner-Parco Pointer
+QN05602M,Keriou Ker
+QN05603M,Enezeg
+QN05604M,Kervenanec Nord
+QN05605M,Polygone Frebault
+QN05606M,Bois du Château
+QN05607M,Kerguillette - Petit Paradis - St Armel
+QN05608M,Kercado
+QN05609M,Ménimur
+QN05701M,Quartier Saravis
+QN05702M,La cité
+QN05703M,Wiesberg Hommel
+QN05704M,Bellevue
+QN05705M,Quartier Rémelange
+QN05706M,Quartier Ouest
+QN05707M,Côtes des Roses - Bel Air
+QN05708M,Quartier Saint-Pierre - La Milliaire
+QN05709M,Quartier Terrasses Des Provinces
+QN05710M,Beausoleil
+QN05711I,Vieille Ville Et Ville Haute
+QN05712M,La Chapelle
+QN05713M,Quartier République
+QN05714M,Cité du Furst
+QN05715M,Carrière Wenheck
+QN05716M,Quartier Maroc
+QN05717M,Quartier Breckelberg Fatima
+QN05718M,Bellecroix
+QN05719M,Hauts De Vallières
+QN05720M,Borny
+QN05721M,Sablon Sud
+QN05722M,La Patrotte - Metz-Nord
+QN05723M,Quartier Saint-Eloy - Boileau - Pré Génie
+QN05724M,Les Chênes
+QN05725N,Quartier Falogne
+QN05726N,Roi
+QN05801M,Grande Pâture - Les Montôts
+QN05802M,Le Banlay
+QN05803M,Bords de Loire - Courlis - La Baratte
+QN05804M,Saint-Laurent
+QN05901M,Auby Centre
+QN05902M,Asturies - Belleforières
+QN05903M,Résidence Gayant
+QN05904M,Flers En Escrebieux Pont De La Deûle - Dorignies
+QN05905M,Frais Marais
+QN05906M,Notre Dame - La Clochette - Le Bivouac
+QN05907M,Faubourg De Béthune
+QN05908M,Les Epis
+QN05909M,Waziers Centre
+QN05910M,Les Explorateurs - Place Du 8 Mai 1945 - Jean Jaurès - La Flamenne
+QN05911M,Quartier Du Village
+QN05912M,Bois Du Quesnoy
+QN05913M,Centre Lambreçon
+QN05914M,Long Prés - Prés Du Paradis
+QN05915M,Pont De Pierre
+QN05916M,Provinces françaises - La Joyeuse
+QN05917M,L'Epinette
+QN05918M,Quartier Intercommunal Sous-Le Bois Montplaisir Rue D'Hautmont
+QN05919M,Louvroil centre
+QN05920M,Verrerie - Square République
+QN05921M,Zone Intercommunale Rives De L'Escaut
+QN05922M,Cité Thiers - Cité Du Rivage - Brunehaut
+QN05923M,Centre Ville - Le Jard
+QN05924M,Chaussiette - Macou
+QN05925M,Centre Ville
+QN05926M,Le Trieu
+QN05927M,Quatre Chasses Poudrière Faiencerie
+QN05928M,Centre Ville
+QN05929M,La Pépinière-De Gaulle
+QN05930M,Dutemple Chasse Royale Saint Waast - La Sentinelle
+QN05931M,Zone Intercommunale Faubourg De Cambrai - La Briquette
+QN05932M,Cité Le Jard
+QN05933M,La Solitude Hermitage
+QN05934M,Quartier Prioritaire d'Aniche
+QN05935M,Quartier Prioritaire D'Auberchicourt Et Ecaillon
+QN05936M,Quartier Prioritaire De Masny
+QN05937M,Quartier Prioritaire De Montigny En Ostrevent
+QN05938M,Barrois
+QN05939M,Lemay Sainte Marie
+QN05940M,Quartier Prioritaire De Somain
+QN05941I,Résidences Pasteur Et Foch
+QN05942M,Centre Ville - Gambetta
+QN05943M,Coeur D'Etoile
+QN05944M,Fourmies
+QN05945M,Cité Des Bois
+QN05946M,Vieux Centre Ville Saint Géry
+QN05947M,Quartier Saint Roch
+QN05948M,Quartier Amérique
+QN05949M,Résidence D'Esnes
+QN05950M,Denain
+QN05951M,Liberté Vieux Douchy
+QN05952M,Schneider
+QN05953M,Couture Savonnerie
+QN05954M,Gambetta
+QN05955M,Sabatier
+QN05956M,Elnon
+QN05957M,Collinière
+QN05958M,Arenberg
+QN05959M,Petit Steendam
+QN05960M,Saint Pol Sur Mer Quartiers Ouest
+QN05961M,Banc Vert - Ile Jeanty - Carré De La Vieille - Jeu De mail
+QN05962M,Soubise - Basse Ville
+QN05963M,Albeck - Europe - Moulin
+QN05964M,Degroote
+QN05965M,Pont de Bois-Hôtel de ville
+QN05966M,Résidence-Poste-Triolo
+QN05967M,Attargette - Chanzy
+QN05968M,Bizet - Briqueterie
+QN05969M,Quartier Intercommunal Hautchamps Longchamp - Lionderie - 3 Baudets
+QN05970M,Pacot - Vandracq
+QN05971M,Secteur Ouest
+QN05972M,Secteur Sud
+QN05973M,Secteur Nord Est
+QN05974M,Secteur Nord
+QN05975M,Les Oliveaux
+QN05976M,Clémenceau-Kiener
+QN05977M,La Briquetterie
+QN05978M,Nouveau Mons - Les Sarts- Dombrowski
+QN05979M,Comtesse De Ségur
+QN05980M,Quartier Intercommunal Roubaix-Tourcoing - Blanc Seau - Croix Bas Saint Pierre - Wattrelos Nord
+QN05981M,Nouveau Roubaix
+QN05982M,La Mouchonnière
+QN05983M,Phalempins
+QN05984M,Virolois
+QN05985M,La Bourgogne
+QN05986M,Pont Rompu
+QN05987M,Blanc Riez
+QN05988M,Epidéme Villas Couteaux
+QN05989M,Centralité De Beaulieu
+QN05990N,Coeur de Ville
+QN05991N,Le Parc
+QN05992N,Bruay Centre - Pont de Bruay
+QN05993N,Quartier prioritaire d'Aulnoye-Aymeries Multisites
+QN05994I,Quartier prioritaire de Hornaing
+QN06001M,Les Hauts de Creil
+QN06002M,Les Martinets
+QN06003I,Les Côteaux
+QN06004M,Les Rochers - L'Obier
+QN06005M,Bellevue - Belle Visée
+QN06006I,Vivier Corax
+QN06007M,Clos des Roses
+QN06008I,La Victoire
+QN06009I,Saint Jean
+QN06010I,Saint Lucien
+QN06011M,Argentine
+QN06012I,Les Terriers
+QN06013I,La Nacre - Saint Exupéry
+QN06014M,Les Sables
+QN06015I,Kennedy
+QN06016M,Beauséjour
+QN06017M,Mont Saint Siméon
+QN06018N,Montupet
+QN06019N,Jaurès - Gournay
+QN06101M,Les Provinces
+QN06102M,Saint Michel - Vallée d'Auge
+QN06103M,Saint Michel
+QN06104M,Saint-Sauveur - Pont Féron
+QN06105M,La Madeleine - Maréchal Leclerc
+QN06106M,Perseigne
+QN06107M,Courteille
+QN06201M,Quartier Du Mieux-Etre
+QN06202M,Camus
+QN06203M,Plantigeons - Germinal - République
+QN06204M,Centre Ville
+QN06205M,Quartier Des Cité 5 - Cité De Marles - Cité Du Rond-Point
+QN06206M,Quartier Rimbert
+QN06207M,Quartier Du Regain
+QN06208M,Quartier Du Mont Liébaut
+QN06209M,Quartier 3 ilôts
+QN06210M,Renaissance
+QN06211M,Le Centre
+QN06212M,Terrasses Basly
+QN06213M,Quartier Coteau Du Stade Parc-Cité 34
+QN06214M,Quartier Des Cités 6 Et 30
+QN06215M,Quartier Provinces - Longues Trinques
+QN06216M,Quartier Saint-Elie - Fosse 13
+QN06217M,Le Haut D'Houdain
+QN06218M,Terre-Noeve
+QN06219M,République - Cité 4
+QN06220M,Cité Des Brebis
+QN06221M,Cité Du Transvaal - Centre
+QN06222M,Cité 5 - Cité 11
+QN06223M,Cité Bellevue
+QN06224M,Cité 12-14
+QN06225M,Grande Résidence
+QN06226M,Cité 2
+QN06227M,Sellier Cité 4
+QN06228M,Calonne - Marichelles - Vent De Bise
+QN06229M,Les Hauts De Liévin - Résidence Des Provinces - Cités 9-9bis
+QN06230M,Blum - Salengro - 109
+QN06231M,3 Cités
+QN06232M,Cité 10
+QN06233M,Les Blanches Laines Fosse 11 12 13
+QN06234M,Quartier du 3/15
+QN06235M,Cité Des Taberneaux
+QN06236M,Saint-Exupéry - Léon Blum
+QN06237M,Quai Du commerce - Saint Sépulcre
+QN06238M,Du Village Au Moulin
+QN06239M,Rotois - Saint Roch
+QN06240M,Cornuault
+QN06241M,Macé - Darcy
+QN06242M,Ponchelet - Kennedy
+QN06243M,La Plaine Du 7
+QN06244M,Zac Des Deux Villes
+QN06245M,Quartier Du Maroc - La Canche
+QN06246M,Nouméa
+QN06247M,Languedoc - Cité 10
+QN06248M,Quartier De La Haute Voie
+QN06249M,Damrémont
+QN06250M,Centre Ville
+QN06251M,Chemin Vert - Beaurepaire - Malborough
+QN06252M,Des résidences Sud du Boulonnais
+QN06253M,Fort Nieulay - Cailloux - Saint-Pierre
+QN06254M,Beau Marais
+QN06255M,Ville Centre
+QN06256M,Centre Historique
+QN06257M,Quartier De La Renaissance
+QN06258M,Quatre As
+QN06259M,Quartier Bonnettes - Saint Pol - Baudimont
+QN06260M,Quartier Blancs Monts - Hochettes
+QN06261M,Saint Michel Goudemand
+QN06262M,Cheminots Jean Jaurès Moulin Hacart
+QN06263M,Quartier Chanteclair - Cévennes
+QN06264N,Les Vérotières
+QN06301M,Saint-Jacques
+QN06302I,Quartiers Nord
+QN06303I,La Gauthière
+QN06304I,Fontaine Du Bac
+QN06305M,Cournon D'Auvergne
+QN06306M,Thiers
+QN06307N,Centre
+QN06401I,Maubec - Citadelle
+QN06402M,Hauts de Sainte-Croix - Mounédé
+QN06403M,Saragosse
+QN06404M,Ousse des Bois - Berlioz - Le Laü
+QN06501M,Solazur
+QN06502M,Laubadère
+QN06503M,Ormeau/Bel Air - Mouysset
+QN06504M,Ophite
+QN06601M,Centre Ville
+QN06602I,Quartier Saint Assiscle
+QN06603I,Quartier Gare
+QN06604I,Quartier Bas-Vernet Ancien Zus
+QN06605M,Diagonale Du Haut - Moyen-Vernet
+QN06606I,Rois De Majorque
+QN06607I,Bas-Vernet Nouveau QPV
+QN06608I,Quartier Centre Ancien
+QN06609M,Quartier Nouveau Logis
+QN06610I,Quartier Champs De Mars
+QN06701M,Quartier Liberté
+QN06702I,Les Pins - Musau
+QN06703I,Quartiers Est
+QN06704I,Quartiers Ouest
+QN06705I,Guirbaden
+QN06706I,Libermann
+QN06707I,Marais
+QN06708I,Hohberg
+QN06709M,Molkenbronn
+QN06710I,Hautepierre
+QN06711M,Koenigshoffen-Est
+QN06712I,Cronenbourg
+QN06713I,Elsau
+QN06714I,Laiterie
+QN06715M,Neuhof - Meinau
+QN06716I,Cité De L'Ill
+QN06717M,Spach - Rotterdam
+QN06718I,Ampère
+QN06719I,Port Du Rhin
+QN06720M,Murhof
+QN06721N,Centre
+QN06722N,Jura - Citadelle
+QN06723N,Risler
+QN06724N,Wihrel
+QN06801M,Saint Vincent de Paul
+QN06802M,Europe - Schweitzer
+QN06803M,Les Coteaux
+QN06804M,Bourtzwiller
+QN06805M,Péricentre
+QN06806M,Fonderie - Péricentre
+QN06807M,Drouot-Jonquilles
+QN06808M,Brustlein
+QN06809M,Markstein - La Forêt
+QN06810M,Quartier de la Gare
+QN06811M,Quartier Bel-Air
+QN06901M,Monod - Baratin - Cacard
+QN06902M,Centre
+QN06903M,Les Pérouses - Compassion
+QN06904I,Le Garet
+QN06905I,Béligny
+QN06906M,Belleroche
+QN06907M,Aiguerande
+QN06908M,Parilly
+QN06909M,Terraillon - Chenier
+QN06910M,Les Vernes
+QN06911I,La Saulaie
+QN06912M,Haute Roche
+QN06913M,Minguettes - Clochettes
+QN06914M,Arsenal - Carnot - Parmentier
+QN06915I,Les Collonges
+QN06916M,Grande Île
+QN06917I,Sud
+QN06918M,Duclos - Barel
+QN06919M,Bel Air - Les Brosses
+QN06920M,Saint-Jean
+QN06921M,Les Buers
+QN06922M,Tonkin
+QN06923M,Prainet
+QN06924I,Le Mathiolan
+QN06925M,Ville Nouvelle
+QN06926M,Bellevue - Ermitage
+QN06927M,Garibaldi
+QN06928M,Bel Air
+QN06929M,Soeurs Janin
+QN06930M,Cités Sociales Gerland
+QN06931M,Moulin A Vent
+QN06932M,Etats-Unis - Langlet Santy
+QN06933I,Mermoz
+QN06934M,Duchère
+QN06935M,Gorge de Loup - La Vallonière
+QN06936M,Les Plaines
+QN06937M,Le Vallon
+QN06938I,Le Vergoin
+QN06939I,Moncey
+QN06940I,Les Plantées
+QN06941N,La Borelle
+QN06942N,Laennec
+QN06943N,Monery
+QN06944N,Les Sources - Le Pérollier
+QN06945N,Les Maronniers
+QN06946N,Berthaudière - Sablons - Cornavent
+QN06947N,Le Péronnet
+QN06948N,Le Roule - Cadière
+QN07001M,Rêpes - Montmarin - Grand Grésil
+QN07002I,Le Mortard
+QN07003M,Stade Messier
+QN07004I,Les Chenevières
+QN07005M,Les Capucins
+QN07101I,Aubépins
+QN07102I,Prés Saint Jean
+QN07103M,La Chanaye - Résidence
+QN07104I,Les Blanchettes
+QN07105M,Les Saugeraies - Gautriats
+QN07106I,Marbé
+QN07107I,Saint Pantaléon
+QN07108M,Le Tennis
+QN07109M,Rives Du Plessis
+QN07110M,Bois Du Verne
+QN07111M,Résidence Du Lac
+QN07112N,La Molette
+QN07201I,Saint Exupéry
+QN07202I,Chaoué-Perrières
+QN07203M,Bellevue-Carnac
+QN07204M,Ronceray - Glonnières - Vauguyon
+QN07205M,Sablons - Bords de l'Huisne
+QN07206M,Epine
+QN07207M,Montreux
+QN07301M,Biollay - Bellevue
+QN07302M,Les Hauts De Chambéry
+QN07303M,Val Des Roses - Contamine - Champ de Mars
+QN07401M,Le Perrier - Château Rouge - Livron
+QN07402M,Le Chalet - Helvetia-Park - Hutins
+QN07403M,Les Ewües
+QN07404I,Collonges Sainte-Hélène
+QN07405M,Saint Georges - Route De Thairy
+QN07406I,Bois Jolivet - Les Iles - Bellerive
+QN07501M,Bédier - Boutroux - Villa d'Este
+QN07502M,Chaufourniers
+QN07503M,Kellermann - Paul Bourget
+QN07504M,Oudiné - Chevaleret
+QN07505I,Didot - Porte de Vanves
+QN07506M,Porte de Brançion - Périchaux
+QN07507I,Porte De Saint-Ouen - Porte Pouchet
+QN07508M,Blémont
+QN07509M,Porte Montmartre - Porte Des Poissonniers - Moskova
+QN07510M,La Chapelle - Evangile
+QN07511M,Goutte D'Or
+QN07512I,Porte De La Chapelle - Charles Hermite
+QN07513M,Stalingrad Riquet
+QN07514M,Michelet - Alphonse Karr - Rue de Nantes
+QN07515M,Danube - Solidarité - Marseillaise
+QN07516I,Algérie
+QN07517I,Les Portes Du Vingtième
+QN07518M,Petit Belleville
+QN07519M,Grand Belleville
+QN07520M,Les Amandiers
+QN07521N,Falguière
+QN07601M,Val Druel
+QN07602M,Neuville
+QN07603I,Les Bruyères
+QN07604M,Centre ville
+QN07605I,Mont Gaillard - Mare Rouge
+QN07606M,Centre Ancien - Quartiers Sud
+QN07607I,Bois-De-Bléville
+QN07608I,Bléville
+QN07609M,Caucriauville Soquence
+QN07610M,Plateau
+QN07611M,Arts et Fleurs - Feugrais - Novales
+QN07612I,Parc du Robec
+QN07613M,Centre ville
+QN07614M,Quartier BCDM
+QN07615M,QPV de Maromme
+QN07616M,Quartier Rosa Parks
+QN07617M,Bel Air
+QN07618M,Quartier de la Piscine
+QN07619M,Grammont - Saint Sever - Orléans
+QN07620M,Les Hauts de Rouen
+QN07621M,Quartier Château Blanc
+QN07622M,Quartier Thorez - Grimau
+QN07623M,Quartier Hartmann - La Houssière
+QN07624M,Buisson-Gallouen
+QN07625M,Lalizel
+QN07626M,Fécamp quartier du Ramponneau
+QN07627N,Quartier Saint-Julien
+QN07628N,Tourneville
+QN07629N,Quartier Clairval
+QN07701I,La Renardière
+QN07702I,La Grande Prairie
+QN07703M,Schweitzer - Laennec
+QN07704M,Orly Parc
+QN07705M,Les Deux Parc Luzard
+QN07706I,L'Arche Guedon
+QN07707M,Le Mail
+QN07708M,La Plaine De Lys - Bernard De Poret
+QN07709M,Les Courtilleraie - Le Circé
+QN07710M,Plateau De Corbeil - Plein-Ciel
+QN07711M,Les Mezereaux
+QN07712M,L'Almont
+QN07713M,Beauval Dunant
+QN07714M,Surville
+QN07715I,Les Fougères
+QN07716I,Résidence Montmirail
+QN07717M,Champbenoist
+QN07718M,Anne Franck
+QN07719I,Les Templiers
+QN07720M,Mont Saint Martin
+QN07721M,Quartier République Vilvaudé
+QN07722M,Lugny Maronniers - Résidence Du Parc
+QN07723M,Centre Ville - Quartier De L'Europe
+QN07724N,Normandie - Niemen - Poitou
+QN07725N,Coeur de Champagne
+QN07801M,Val Fourré
+QN07802M,Merisiers Plaisances
+QN07803M,Domaine De La Vallée
+QN07804M,Pont Du Routoir 2
+QN07805M,Merisiers-Plaine De Neauphle
+QN07806M,Jean Macé
+QN07807M,Bois De L'Etang - Orly Parc
+QN07808M,Oiseaux
+QN07809M,Fleurs
+QN07810M,Noe-Feucherets
+QN07811M,Cité Du Parc
+QN07812M,Centre-Sud
+QN07813M,Alouettes
+QN07814M,Plateau
+QN07815M,Valibout
+QN07816M,Friches
+QN07817M,Beauregard
+QN07818M,Saint Exupéry
+QN07819M,Cinq Quartiers
+QN07820M,Cité Renault - Centre Ville
+QN07821N,Les Acacias
+QN07822N,L'Avre
+QN07901M,Clou Bouchet
+QN07902I,Tour Chabot Gavacherie
+QN07903M,Pontreau Colline Saint-André
+QN07904M,Les Capucins
+QN07905M,Valette
+QN08001M,Etouvie
+QN08002M,Pierre Rollin
+QN08003M,Amiens Nord
+QN08004M,Marcel Paul - Salamandre
+QN08005M,Condorcet - Philéas Lebesgue
+QN08006M,Les Parcheminiers
+QN08007M,Soleil Levant - Bouleaux - Platanes
+QN08008M,Espérance - Provinces - Lopofa - Québec
+QN08009M,Les Argillières
+QN08010N,Elbeuf-Lescouvé
+QN08101M,La Falgalarié
+QN08102M,Laden Petit Train
+QN08103M,Lameilhé
+QN08104M,Aillot Bisséous Lardaillé
+QN08105M,Centre Ville
+QN08106M,Cantepau
+QN08107M,Veyrières Rayssac
+QN08108M,Lapanouse
+QN08109M,Rajol - Cérou - Gourgatieux - Bouloc - Verrerie
+QN08110M,Lentajou - Catalanis
+QN08111M,Crins - En Gach
+QN08201I,Cœur de Ville
+QN08202M,Médiathèque
+QN08203M,Centre-Ville
+QN08204M,Sarlac
+QN08205N,Beausoleil-Bas
+QN08301M,L'Agachon
+QN08302M,Centre Ville
+QN08303M,Les Collettes
+QN08304M,Centre Ville
+QN08305M,Romain Rolland
+QN08306I,Centre Ville
+QN08307M,Val Des Rougières
+QN08308M,Berthe
+QN08309M,Centre Ville
+QN08310M,La Beaucaire
+QN08311M,La Florane
+QN08312M,Pontcarral
+QN08313M,Pont Du Las - Rodeilhac
+QN08314I,Beaulieu- Sainte Marie
+QN08315M,Sainte Musse
+QN08316I,Centre Ville
+QN08317I,Le Jonquet - La Baume- Le Guynemer
+QN08318M,La Gabelle
+QN08319M,Centre Ville - Le Vergeiras
+QN08320I,Centre Ville
+QN08321M,Le Carami
+QN08322N,La Rode
+QN08323N,Saint-Jean-du-Var
+QN08401M,Les Griffons - Centre ville
+QN08402M,Monclar - Champfleury - Rocade Sud - Barbière - Croix des Oiseaux
+QN08403M,Reine Jeanne - Saint Jean - Grange d'Orel
+QN08404I,Saint Chamand
+QN08405M,Camp Rambaud - Les Mérides - Joffre - Centre Ville
+QN08406M,Centre ancien
+QN08407M,Centre ville
+QN08408M,Amandiers - Éléphant
+QN08409M,Pous-du-Plan
+QN08410M,Quintine - Villemarie - Bois de l'Ubac - Le Parc
+QN08411I,Fourchevieillles - Comtadines - L'Aygues
+QN08412I,Nogent - Saint Clément
+QN08413I,Générat - Establet
+QN08414I,Chaffunes
+QN08415I,Vieux Moulin - Centre ville - Les Mûriers
+QN08416M,Centre ancien - Saint Michel
+QN08417I,Vallades - Rebenas - Clos Saint Michel - Capucins
+QN08418I,Centre ancien - Les Tours - La Gaillarde - Mistral - Sévigné
+QN08419I,Docteur Ayme - Condamines - Barillon - Saint Martin - Bon Puits - Saint Gilles - Ratacans
+QN08420I,La Clède - Gare - Route de Pertuis - Sainte Anne
+QN08421M,Centre Ancien - Giono
+QN08422N,Pont des Deux Eaux
+QN08423N,Broquetons - Sainte Catherine
+QN08501I,Jean Yole - Pyramides
+QN08502I,Vigne-aux-Roses
+QN08503I,Liberté - Zola
+QN08504I,Centre - Moulins Liots
+QN08601M,Lac Renardières Ozon
+QN08602M,Châteauneuf Centre Ville
+QN08603M,Bel Air
+QN08604M,Trois Cités
+QN08605M,Couronneries Saint-Eloi
+QN08606M,Beaulieu
+QN08701M,Portes Ferrées
+QN08702I,La Bastide
+QN08703I,Le Sablard
+QN08704I,Beaubreuil
+QN08705I,Val de l'Aurence Sud
+QN08706I,Val de l'Aurence Nord
+QN08707I,Les Coutures
+QN08708I,Bellevue
+QN08709I,Le Vigenal
+QN08801M,Bitola-La Vierge
+QN08802M,Justice-Saut le Cerf
+QN08803M,Le Haut Du Gras
+QN08804M,Le Rhumont
+QN08805M,Saint-Roch - L'Orme
+QN08806M,Kellermann-Foucharupt
+QN08901I,La Rive Droite
+QN08902I,Les Brichères - Sainte Geneviève
+QN08903M,Les Rosoirs
+QN08904I,Pompidou-Ravel
+QN08905I,La Madeleine
+QN08906M,Arènes - Champs Plaisants
+QN08907I,Les Chaillots
+QN09001I,Bougenel - Mulhouse
+QN09002M,Les Glacis Du Château
+QN09003I,Dardel - La Méchelle
+QN09004M,Les Résidences
+QN09005M,Le Mont
+QN09006M,Arsot - Rives du Martinet
+QN09007N,La Pépinière
+QN09101M,L'entre bois des roches
+QN09102M,Les Tarterêts
+QN09103M,Montconseil
+QN09104M,La Nacelle - Papeterie
+QN09105I,Rive Droite
+QN09106M,Quartier Ouest
+QN09107M,Les Ardrets - Branly
+QN09108M,Les Aunettes - Les Résidences - Joncs Marins
+QN09109I,La Grange Aux Cerfs
+QN09110M,Les Aunettes
+QN09111M,Les Hautes Mardelles
+QN09112M,Plaine - Cinéastes
+QN09113I,Le Vieillet
+QN09114M,Bel Air - Rocade
+QN09115M,Poterne - Zola
+QN09116M,Le Canal
+QN09117M,Pyramides - Bois Sauvage
+QN09118M,Les Aunettes
+QN09119M,Champtier Du Coq - Champs Elysées - Petit Bourg
+QN09120M,Le Parc Aux Lièvres
+QN09121M,Les Passages
+QN09122M,Les Epinettes
+QN09123M,Le Plateau
+QN09124M,Plateau - Grande Borne
+QN09125M,La Grande Borne
+QN09126M,Grigny 2
+QN09127M,Le Noyer Renard
+QN09128M,Clos Nollet
+QN09129M,Grand Vaux
+QN09130M,Les Bergeries
+QN09131I,La Forêt
+QN09132M,La Croix Blanche
+QN09133M,La Prairie De L'Oly
+QN09134M,Quartier Sud
+QN09135M,La longue mare
+QN09136M,Plateau De Guinette
+QN09137M,La Croix De Vernailles
+QN09138M,Opéra
+QN09139N,Edouard Vaillant
+QN09140N,Quartier Est
+QN09141N,Collénot - Marinière - Mouchotte
+QN09142N,Léo Lagrange
+QN09143N,Les Mazières
+QN09144N,La Rénovation
+QN09145N,Gare
+QN09146N,Pré Barallon
+QN09147N,Saint-Eloi
+QN09201M,Université I
+QN09202I,Université II
+QN09203M,Noyer Doré
+QN09204M,Cité Jardins
+QN09205I,Chemin De L'Île
+QN09206M,Le Parc
+QN09207M,Abbé Grégoire - Mirabeau - Lincoln
+QN09208M,Luth-Fossé
+QN09209I,Fossés Jean
+QN09210M,Hauts d'Asnières
+QN09211M,Agnettes
+QN09212I,Petit Colombes
+QN09213M,Petit Nanterre
+QN09214M,Les Grésilllons
+QN09215M,Cap Villeneuve
+QN09216M,Cité Des Musiciens
+QN09217M,Audra - Musiciens
+QN09218N,Secteur Anatole France
+QN09219N,Les Blagis
+QN09301I,Secteur Gare - Aviatic
+QN09302M,Secteur Saint-Nicolas - Guynemer - Gai Logis
+QN09303M,Haut Clichy - Centre Ville - Bosquets - Lucien Noel
+QN09304M,Quartier Avenir Parisien
+QN09305I,Quartiers La Muette - Village Parisien
+QN09306I,Quartiers Economie - Les Oiseaux
+QN09307M,Thorez - Larivière - Langevin - Moulin - Allende
+QN09308M,La Capsulerie
+QN09309M,Le Plateau - Les Malassis - La Noue
+QN09310M,Les Courtillières - Pont-De-Pierre
+QN09311M,Quartier Salengro - Gaston Roulaud - Centre Ville
+QN09312I,Blanqui
+QN09313I,Marnaudes - Fosse Aux Bergers - La Sablière
+QN09314M,Abreuvoir - Bondy Nord - Bondy Centre - Pont-De-Bondy - La Sablière - Secteur Sud
+QN09315M,Trois Communes - Fabien
+QN09316M,Branly - Boissière
+QN09317M,Boissière - Saussaie-Beauclair
+QN09318M,Bel Air - Grands Pêchers - Ruffins - Le Morillon
+QN09319I,Jean Moulin - Espoir
+QN09320M,Béthisy
+QN09321I,Le Londeau
+QN09322I,La Boissière
+QN09323M,Sept Arpents - Stalingrad
+QN09324I,Quatre Chemins
+QN09325M,Marcel Cachin
+QN09326I,Quartier de L'Horloge
+QN09327I,Gagarine
+QN09328M,Franc Moisin - Cosmonautes - Cristino Garcia - Landy
+QN09329M,Centre Ville
+QN09330M,Orgemont
+QN09331M,La Source - Les Presles
+QN09332M,Thorez-Géraux
+QN09333I,Méchin - Bocage
+QN09334I,Paul-Cachin
+QN09335M,Centre Ville - Chatenay - Maroc - Poètes
+QN09336I,Joncherolles - Fauvettes
+QN09337M,Plaine - Landy - Bailly
+QN09338M,Grand Centre - Sémard
+QN09339M,Floréal Saussaie Allende
+QN09340I,Plaine Trezel - Chaudron
+QN09341M,Saint-Rémy - Joliot Curie - Bel Air
+QN09342M,Langevin - Lavoisier - Tartres - Allende
+QN09343I,Cordon
+QN09344M,Michelet - Les Puces - Debain
+QN09345I,Vieux Saint-Ouen
+QN09346M,Pasteur - Arago - Zola
+QN09347M,Centre Elargi
+QN09348M,Quartier Politique De La Ville
+QN09349M,Rougemont
+QN09350I,Montceleux - Pont Blanc
+QN09351M,Parc De La Noue - Picasso - Pasteur - Europe - Merisiers
+QN09352I,Tremblay Grand Ensemble
+QN09353M,Duclos-Sausset
+QN09354M,Balagny
+QN09355M,Les Beaudottes Savigny
+QN09356I,Secteur Nord Pont-Yblon
+QN09357M,Jean Moulin - Jean Bouin
+QN09358I,Les Peupliers
+QN09359M,Val Coteau
+QN09360I,Mont d'Est - Palacio
+QN09361I,Pavé-Neuf
+QN09362I,Champy - Hauts Bâtons
+QN09363I,Pré-Gentil
+QN09364M,Marnaudes - Bois-Perrier
+QN09365N,Calon
+QN09366N,Cité du Nord - Butte
+QN09367N,Paul Vaillant-Couturier Allende-Neruda
+QN09368N,Quartier Pasteur
+QN09369N,L'Eglise
+QN09370N,Les Renouillères
+QN09371N,La Fourche/Canal de l'Ourcq
+QN09372N,Chanzy-Briand
+QN09373N,Jaurès-Séverine
+QN09374N,Quartier des Dahlias
+QN09375N,Benoni
+QN09401M,Pierre Et Marie Curie
+QN09402M,Irlandais - Paul Vaillant Couturier - Cherchefeuille - Clément Ader
+QN09403M,La Haie Griselle - La Hêtraie
+QN09404M,Chantereine
+QN09405M,Mont Mesly - La Habette - Coteaux Du Sud
+QN09406I,Les Bleuets
+QN09407I,Gagarine
+QN09408M,Ivry Port
+QN09409M,Monmousseau
+QN09410M,Colonel Fabien
+QN09411M,Centre Ville : Defresne - Vilmorin - Robespierre
+QN09412M,Commune De Paris - 8 Mai 1945
+QN09413M,Péri - Schuman Bergonié Martinets
+QN09414M,Chaperon Vert
+QN09415I,Jardins Parisiens
+QN09416I,Jardins Parisiens - Stade
+QN09417M,Alexandre Dumas
+QN09418M,Lebon - Hochart - Mermoz (Lozaits Sud)
+QN09419M,Lozaits Nord - Grimau - Armand Gouret
+QN09420M,Fabien - Saint Exupéry
+QN09421M,Les Quatre Cités
+QN09422M,L'Egalité
+QN09423I,Les Mordacs
+QN09424I,Le Bois L'Abbé
+QN09425I,Le Plateau
+QN09426I,La Redoute (Le Fort-Michelet)
+QN09427M,Les Larris - Jean Zay
+QN09428M,Quartier Est
+QN09429I,Quartier Sud
+QN09430I,Rives De La Marne
+QN09431M,Polognes-Centre Ville - Le Plateau - Saint-Martin
+QN09432I,Lutèce - Bergerie
+QN09433M,Centre Ville
+QN09434I,Le Quartier Nord
+QN09435I,HBM - Les Tours
+QN09436M,Triage
+QN09437M,Portes De Paris - Les Hautes-Noues
+QN09438N,Fosse Rouge - Cité Verte
+QN09439N,Grand Ensemble
+QN09440N,Centre-Ville (Barbusse)
+QN09441N,Pavé de Grignon
+QN09442N,Les Sorbiers - Lallier
+QN09443N,La Plaine
+QN09444N,Vercors - Chastenet
+QN09445N,Les Combattants
+QN09446N,La Vallée aux Renards
+QN09447N,Haut-Pays - La Grusie
+QN09501M,Noyer Crapaud
+QN09502I,Justice - Butte Blanche
+QN09503I,Champioux
+QN09504I,Brigadières - Henri Barbusse
+QN09505M,Val D'Argent Nord
+QN09506M,Val D'Argent Sud
+QN09507I,Champagne
+QN09508M,Joliot Curie
+QN09509M,Centre Ville
+QN09510M,Delaune Masson Colomb
+QN09511M,Axe Majeur - Horloge
+QN09512I,Les Dix Arpents
+QN09513M,Le Moulinard
+QN09514M,Marcouville
+QN09515M,Louvrais
+QN09516M,Chennevières - Parc Le Nôtre
+QN09517M,Les Toupets - Côte Des Carrières
+QN09518I,Les Lévriers
+QN09519M,Centre Ville
+QN09520I,Mare Des Noues
+QN09521I,Montédour
+QN09522M,Les Naquettes
+QN09523M,Les Frances
+QN09524M,Clos Saint Pierre Elargi
+QN09525M,Bas Des Aulnaies - Carreaux Fleuris - Fontaine Bertin
+QN09526M,Les Pins
+QN09527M,Les Sarments Et Les Nérins - Jean Bouin
+QN09528M,Cottage Elargi
+QN09529M,Grandes Bornes Elargies
+QN09530M,Terres de Garges
+QN09531M,Lochères
+QN09532M,Carreaux - Fauconnière - Marronniers - Pôle Gare
+QN09533M,Saint Blin
+QN09534M,Rosiers Chantepie
+QN09535M,Village - Mozart
+QN09536M,Village - Le Puits La Marlière - Derrière Les Murs De Monseigneur
+QN09537M,Les Chênes
+QN09538M,Le Village
+QN09539M,Les Raguenets
+QN09540N,Les Linandes
+QN09541N,Bon temps - Terroir
+QN09542N,Boyenval
