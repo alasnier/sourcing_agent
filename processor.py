@@ -1,3 +1,4 @@
+# processor.py
 from datetime import date
 from pathlib import Path
 
@@ -40,6 +41,10 @@ def process_data(_paths) -> pl.DataFrame:
     # --- ETABLISSEMENTS ---
     print("-> Chargement Etablissements (Parquet)...")
     etab_lazy = pl.scan_parquet(etab_parquet)
+
+    # Filtre Pushdown Predicate : Uniquement les établissements ACTIFS
+    etab_lazy = etab_lazy.filter(pl.col("etatAdministratifEtablissement") == "A")
+
     if config.DEPARTEMENT:
         print(f"   Filtre Département : {config.DEPARTEMENT}")
         etab_lazy = etab_lazy.filter(
@@ -69,7 +74,6 @@ def process_data(_paths) -> pl.DataFrame:
                 pl.col("dateCreationEtablissement")
                 .cast(pl.Utf8)
                 .alias("date_creation_str"),
-                pl.col("dateDebut").cast(pl.Utf8).alias("date_debut_str"),
                 pl.col("etatAdministratifEtablissement")
                 .cast(pl.Utf8)
                 .alias("etatAdministratifEtablissement"),
@@ -80,26 +84,15 @@ def process_data(_paths) -> pl.DataFrame:
                 pl.col("date_creation_str")
                 .str.strptime(pl.Date, "%Y-%m-%d", strict=False)
                 .alias("dateCreationEtablissement"),
-                pl.col("date_debut_str")
-                .str.strptime(pl.Date, "%Y-%m-%d", strict=False)
-                .alias("dateDebut"),
             ]
         )
-        .with_columns(
-            [
-                pl.when(pl.col("etatAdministratifEtablissement") == "F")
-                .then(pl.col("dateDebut"))
-                .otherwise(pl.lit(None, dtype=pl.Date))
-                .alias("dateFermetureEtablissement")
-            ]
-        )
-        .drop(["date_creation_str", "date_debut_str"])
+        .drop(["date_creation_str"])
     )
 
-    # --- GEOLOCALISATION (Option A) ---
+    # --- GEOLOCALISATION ---
     print("-> Chargement Géolocalisation SIRENE (Parquet)...")
     scan_geo = pl.scan_parquet(geoloc_parquet)
-    schema_geo = scan_geo.collect_schema()  # solution propre (pas de warning)
+    schema_geo = scan_geo.collect_schema()
 
     def pick(*cands):
         for c in cands:
@@ -132,13 +125,9 @@ def process_data(_paths) -> pl.DataFrame:
 
     geoloc_lazy = scan_geo.select(selections)
 
-    # Métropole uniquement (EPSG=2154 – RGF93/L93) – doc Insee (jeu géoloc SIRENE)
     if config.METROPOLE_ONLY and epsg_col:
-        geoloc_lazy = geoloc_lazy.filter(
-            pl.col("EPSG") == "2154"
-        )  # [5](https://mundobytes.com/en/How-to-open-CSV-files-in-Excel-with-UTF-8-encoding/)
+        geoloc_lazy = geoloc_lazy.filter(pl.col("EPSG") == "2154")
 
-    # Filtre géoloc par code commune INSEE si dispo (optimisation)
     geo_names = geoloc_lazy.collect_schema().names()
     if config.DEPARTEMENT and ("PLG_CODE_COMMUNE" in geo_names):
         geoloc_lazy = geoloc_lazy.filter(
@@ -153,7 +142,7 @@ def process_data(_paths) -> pl.DataFrame:
         .collect()
     )
 
-    # --- QPV & qualités (mapping lisible) ---
+    # --- QPV & qualités ---
     if "PLG_QP24" in df.columns:
         df = df.with_columns(
             [
@@ -191,8 +180,7 @@ def process_data(_paths) -> pl.DataFrame:
             [pl.lit(None).alias("is_qpv"), pl.lit(None).alias("qpv_code")]
         )
 
-    # --- JOINTURE SUR LE CSV de référence code→libellé (sans polygones)
-    # Si le CSV n'existe pas, fallback: nom_qpv = qpv_code
+    # --- JOINTURE CSV QPV ---
     try:
         map_df = pl.read_csv(
             config.QPV_CODELIB_CSV,
@@ -200,7 +188,6 @@ def process_data(_paths) -> pl.DataFrame:
             infer_schema_length=0,
         )
 
-        # Détection souple des noms de colonnes dans le CSV (selon la source)
         def pick_csv(cols, *cands):
             lowers = {c.lower(): c for c in cols}
             for c in cands:
@@ -230,7 +217,6 @@ def process_data(_paths) -> pl.DataFrame:
         )
 
         if code_col is None or lib_col is None:
-            # Impossible de détecter les colonnes: fallback propre
             df = df.with_columns(
                 pl.when(pl.col("qpv_code").is_not_null())
                 .then(pl.col("qpv_code"))
@@ -238,7 +224,6 @@ def process_data(_paths) -> pl.DataFrame:
                 .alias("nom_qpv")
             )
         else:
-            # Normalisation du mapping -> colonnes standard : qpv_code / nom_qpv
             map_df_std = map_df.select(
                 [
                     pl.col(code_col).cast(pl.Utf8).alias("qpv_code"),
@@ -246,7 +231,6 @@ def process_data(_paths) -> pl.DataFrame:
                 ]
             ).unique(subset=["qpv_code"])
 
-            # Jointure sur la même clé (pas de drop nécessaire)
             df = df.join(map_df_std, on="qpv_code", how="left").with_columns(
                 pl.coalesce([pl.col("nom_qpv"), pl.col("qpv_code")]).alias("nom_qpv")
             )
@@ -258,26 +242,15 @@ def process_data(_paths) -> pl.DataFrame:
             .otherwise(None)
             .alias("nom_qpv")
         )
-    # --- AGE ENTREPRISE (logique correcte)
-    today = date.today()
-    df = (
-        df.with_columns(
-            pl.when(pl.col("dateFermetureEtablissement").is_not_null())
-            .then(pl.col("dateFermetureEtablissement"))
-            .otherwise(pl.lit(today).cast(pl.Date))
-            .alias("_age_ref")
+
+    # --- AGE ENTREPRISE (Toutes les entreprises sont actives) ---
+    df = df.with_columns(
+        (
+            (pl.lit(date.today()) - pl.col("dateCreationEtablissement")).dt.total_days()
+            / 365.25
         )
-        .with_columns(
-            (
-                (
-                    pl.col("_age_ref") - pl.col("dateCreationEtablissement")
-                ).dt.total_days()
-                / 365.25
-            )
-            .round(1)
-            .alias("age_entreprise")
-        )
-        .drop(["_age_ref"])
+        .round(1)
+        .alias("age_entreprise")
     )
 
     return df

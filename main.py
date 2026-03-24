@@ -1,3 +1,4 @@
+# main.py
 import os
 from datetime import datetime
 
@@ -31,16 +32,10 @@ def main():
     start = datetime.now()
 
     paths = downloader.run_download()
-    df = processor.process_data(paths)  # -> pl.DataFrame
-
-    # --- Nettoyage juste avant export ---
-    # (renommage déjà fait côté processor ; laissé ici si tu as de vieux runs)
-    if "date_fermeture" in df.columns:
-        df = df.rename({"date_fermeture": "dateFermetureEtablissement"})
+    df = processor.process_data(paths)
 
     # Colonnes à supprimer (doublons/superflues)
     cols_to_drop = [
-        # variantes/doublons potentiels
         "x",
         "y",
         "x_longitude",
@@ -61,17 +56,14 @@ def main():
         "QUALITE_XY",
         "DISTANCE_PRECISION",
         "PLG_CODE_COMMUNE",
-        # champs non souhaités
         "coordonnees_gps",
         "geocodage_distance_max_m",
-        "dateDebut",
-        # audit retiré
         "is_qpv_poly",
         "nom_qpv_poly",
     ]
     df = drop_if_exists_pl(df, cols_to_drop)
 
-    # Ordre final :
+    # Ordre final allégé
     desired_order = [
         "siren",
         "siret",
@@ -82,7 +74,6 @@ def main():
         "adresse",
         "dateCreationEtablissement",
         "etatAdministratifEtablissement",
-        "dateFermetureEtablissement",
         "age_entreprise",
         "is_qpv",
         "qpv_code",
@@ -101,8 +92,6 @@ def main():
     out_parquet = os.path.join(config.OUTPUT_DIR, f"{base_name}.parquet")
 
     print(f"\n-> Export CSV : {out_csv}")
-    # NB: Polars écrit en UTF-8 (sans BOM). Si tu veux UTF-8-SIG pour Excel,
-    # dis-le moi, je te fais un tiny helper pour préfixer le BOM.
     df.write_csv(out_csv, separator=";", include_bom=True)
 
     print(f"-> Export Parquet : {out_parquet}")
