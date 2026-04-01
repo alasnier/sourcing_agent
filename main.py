@@ -1,8 +1,11 @@
 # main.py
 import os
+import sys
 from datetime import datetime
 
+import gspread
 import polars as pl
+from google.oauth2.service_account import Credentials
 
 import config
 import downloader
@@ -28,13 +31,40 @@ def reorder_safely_pl(df: pl.DataFrame, desired: list[str]) -> pl.DataFrame:
     return df.select([pl.col(c) for c in order])
 
 
+def upload_to_gsheets(csv_path: str, sheet_name: str) -> str:
+    """Upload massif du CSV vers Google Sheets et retourne le lien de partage."""
+    if not os.path.exists(config.GOOGLE_SA_JSON):
+        print(f"❌ ERREUR : Le fichier {config.GOOGLE_SA_JSON} est introuvable.")
+        sys.exit(1)
+
+    scopes = [
+        "https://www.googleapis.com/auth/spreadsheets",
+        "https://www.googleapis.com/auth/drive",
+    ]
+    creds = Credentials.from_service_account_file(config.GOOGLE_SA_JSON, scopes=scopes)
+    client = gspread.authorize(creds)
+
+    # 1. Création du fichier dans ton dossier spécifique
+    spreadsheet = client.create(sheet_name, folder_id=config.GOOGLE_FOLDER_ID)
+
+    # 2. Lecture et import du CSV
+    with open(csv_path, "r", encoding="utf-8") as f:
+        csv_content = f.read()
+
+    client.import_csv(spreadsheet.id, csv_content.encode("utf-8"))
+
+    # 3. Ouverture des droits en lecture pour que le client puisse l'ouvrir sans compte
+    spreadsheet.share("", role="reader", type="anyone")
+
+    return f"https://docs.google.com/spreadsheets/d/{spreadsheet.id}"
+
+
 def main():
     start = datetime.now()
 
     paths = downloader.run_download()
     df = processor.process_data(paths)
 
-    # Colonnes à supprimer (doublons/superflues)
     cols_to_drop = [
         "x",
         "y",
@@ -63,7 +93,6 @@ def main():
     ]
     df = drop_if_exists_pl(df, cols_to_drop)
 
-    # Ordre final allégé
     desired_order = [
         "siren",
         "siret",
@@ -83,22 +112,25 @@ def main():
     ]
     df = reorder_safely_pl(df, desired_order)
 
-    # --- Exports (Polars) ---
+    # --- Exports ---
     timestamp = start.strftime("%Y%m%d_%H%M")
-    dpt = config.DEPARTEMENT or "FRANCE"
-    base_name = f"sourcing_{dpt}_{timestamp}"
+    dpt = config.DEPARTEMENT
 
-    out_csv = os.path.join(config.OUTPUT_DIR, f"{base_name}.csv")
-    out_parquet = os.path.join(config.OUTPUT_DIR, f"{base_name}.parquet")
+    # Nommage strict demandé
+    sheet_name = f"agent_qpv_n8n_python_{dpt}_{timestamp}"
 
-    print(f"\n-> Export CSV : {out_csv}")
-    df.write_csv(out_csv, separator=";", include_bom=True)
+    # On utilise la virgule (",") temporairement car l'import_csv Google le digère mieux par défaut
+    out_csv = os.path.join(config.OUTPUT_DIR, f"{sheet_name}.csv")
+    df.write_csv(out_csv, separator=",")
 
-    print(f"-> Export Parquet : {out_parquet}")
-    df.write_parquet(out_parquet, compression="snappy")
+    # Pousse vers Drive et récupère le lien
+    url_gsheet = upload_to_gsheets(out_csv, sheet_name)
 
     cleanup_temp()
-    print(f"\n--- TERMINÉ en {datetime.now() - start} ---")
+
+    # --- OUTPUT POUR N8N ---
+    # On imprime l'URL en toute dernière ligne pour que n8n la lise facilement.
+    print(url_gsheet)
 
 
 if __name__ == "__main__":

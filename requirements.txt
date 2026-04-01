@@ -2,22 +2,47 @@
 #    uv pip compile requirements.in -o requirements.txt
 certifi==2026.1.4
     # via requests
+cffi==2.0.0
+    # via cryptography
 charset-normalizer==3.4.4
     # via requests
+cryptography==46.0.6
+    # via google-auth
 datetime==6.0
+    # via -r requirements.in
+google-auth==2.49.1
+    # via
+    #   -r requirements.in
+    #   google-auth-oauthlib
+    #   gspread
+google-auth-oauthlib==1.3.1
+    # via gspread
+gspread==6.2.1
     # via -r requirements.in
 idna==3.11
     # via requests
+oauthlib==3.3.1
+    # via requests-oauthlib
 pathlib==1.0.1
     # via -r requirements.in
 polars==1.37.1
     # via -r requirements.in
 polars-runtime-32==1.37.1
     # via polars
+pyasn1==0.6.3
+    # via pyasn1-modules
+pyasn1-modules==0.4.2
+    # via google-auth
+pycparser==3.0
+    # via cffi
 pytz==2025.2
     # via datetime
 requests==2.32.5
-    # via -r requirements.in
+    # via
+    #   -r requirements.in
+    #   requests-oauthlib
+requests-oauthlib==2.0.0
+    # via google-auth-oauthlib
 urllib3==2.6.3
     # via requests
 zope-interface==8.2

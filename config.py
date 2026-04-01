@@ -3,27 +3,33 @@ import os
 import re
 import sys
 
-# --- PARAMETRES ---
-DEPARTEMENT = "78"  # ex. "78", "2A", "974"; None = pas de filtre CP
+# --- PARAMETRES DYNAMIQUES (CLI) ---
+# Si n8n (ou le terminal) passe un argument, on le prend. Sinon, on garde 78 pour tes tests locaux.
+if len(sys.argv) > 1 and not sys.argv[1].endswith(".py"):
+    DEPARTEMENT = sys.argv[1].strip()
+else:
+    DEPARTEMENT = "78"
 
 # --- VALIDATION STRICTE (FAIL-FAST) ---
 if DEPARTEMENT is not None:
-    # Accepte 2 à 3 caractères alphanumériques (gère Corse et DOM)
     if not re.match(r"^[0-9A-Z]{2,3}$", str(DEPARTEMENT).upper()):
         print(f"❌ ERREUR CRITIQUE : Le département '{DEPARTEMENT}' est invalide.")
-        print("💡 Solution : Utilisez un format officiel (ex: '78', '01', '2A', '974').")
         sys.exit(1)
 
-METROPOLE_ONLY = True  # Filtrer la géoloc sur EPSG=2154 (RGF93 / Lambert-93)
+# --- CONFIGURATION GOOGLE ---
+GOOGLE_FOLDER_ID = "1OcirWyaXf0rOeDuqZWYpvxRWW964i_ux"
+GOOGLE_SA_JSON = "./credentials.json"  # Le fichier téléchargé depuis GCP
+
+METROPOLE_ONLY = True
 TEMP_DIR = "./temp_data"
 OUTPUT_DIR = "./results"
 QPV_CODELIB_CSV = "./ref/qpv_codelib_2024.csv"
 
-# Slugs API Data.gouv (informatifs)
+# Slugs API Data.gouv
 SLUG_SIRENE = "base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret"
 SLUG_GEOLOC = "geolocalisation-des-etablissements-du-repertoire-sirene-pour-les-etudes-statistiques"
 
-# --- MAPPING FICHIERS LOCAUX (via RID stables) ---
+# --- MAPPING FICHIERS LOCAUX ---
 FILES = {
     "ul": {
         "slug": SLUG_SIRENE,
@@ -42,7 +48,6 @@ FILES = {
     },
 }
 
-# Création automatique des dossiers
 os.makedirs(TEMP_DIR, exist_ok=True)
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 os.makedirs("./ref", exist_ok=True)

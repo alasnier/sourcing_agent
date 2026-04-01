@@ -2,3 +2,5 @@ requests
 datetime
 pathlib
 polars
+gspread
+google-auth
